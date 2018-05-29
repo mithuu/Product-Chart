@@ -21,28 +21,28 @@ body {
 }
 
 .cell__25 {
-    width: 20%;
+    width: 24%;
 }
 
 .cell__25:not(:last-of-type) {
-  margin-right: 4rem
+  margin-right: 1rem
 }
 
 .material__wrap {
-	box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3);
-	border-radius: 4px;
-	background: #ffffff;
-	padding: 5.5rem 6rem;
-	position: relative;
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 5.5rem 6rem;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .material__wrap.--medium {
     padding: 40px 48px;
-    padding: 2.5rem 3rem;
+    padding: 1rem 3rem;
 }
 
 .posts__list__component a {
-    width: 80%;
     margin: 0 auto;
     display: block;
     text-decoration: none;
@@ -115,30 +115,6 @@ img {
   transform: translateY(-30px);
     transition: opacity 300ms ease-out 300ms,
     transform 300ms ease-out 300ms;
-}
-
-.donation__component__wrapper {
-  position: relative;
-}
-
-.donation input {
-  border: none;
-  border-bottom: 1px solid #ccc;
-  width: 100%;
-}
-
-.donation .submit__button {
-  margin: 10px 0;
-  display: block;
-  width: 100%;
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.donation .submit__button.active {
-  transition: opacity 300ms ease-in-out, transform 300ms ease-out;
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .loader {
